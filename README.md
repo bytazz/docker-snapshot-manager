@@ -1,7 +1,6 @@
 # 💾 Docker Service Snapshot Manager
 
 Efficiently manage incremental backups (snapshots) and restorations for multiple Docker services (such as Immich, Nextcloud, and others) using Bash scripts and `rsync` with hardlinks.  
-**No Docker volumes? No problema:** Simply configure which folders to snapshot via `.env`, without plugins or database dumps.
 
 Robustness, flexibility and easy extensibility are main design goals: add more services by copying scripts and adapting `.env`.
 
